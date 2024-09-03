@@ -4,8 +4,8 @@ import torch
 import copy
 from overrides import overrides
 from tabulate import tabulate
-import lightning as pl
-from lightning.pytorch.utilities import rank_zero_only
+import pytorch_lightning as pl
+from pytorch_lightning.utilities import rank_zero_only
 from torch.utils.data.distributed import DistributedSampler
 from .ddp_helper import DistributedProxySampler
 
